@@ -18,6 +18,7 @@ try:
     os.startfile(folder_dir)
 except:
     print("couldn't open folder")
+    exit()
 
 proceed_prompt()
 
